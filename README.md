@@ -4,9 +4,11 @@ jQuery bbcode and smiley editor plugin.
 
 This plugin is designed to make your own bbcode editor easily.
 
+
 Homepage: http://www.w3theme.com/jquery-bbedit/
 
 Imported from: https://code.google.com/p/jquery-bbedit/
+
 
 ### Features: ###
 
