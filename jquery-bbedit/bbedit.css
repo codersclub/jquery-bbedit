@@ -1,0 +1,112 @@
+/* Common */
+.underline {
+text-decoration: underline;
+}
+.line-throught {
+text-decoration: line-through;
+}
+.bbedit-toolbar {
+padding: 2px;
+border-bottom: 0 !important;
+line-height: 20px;
+font-size: 10px;
+text-align: center;
+}
+.bbedit-toolbar span {
+margin: 1px 5px 1px 1px;
+padding: 3px 8px;
+cursor: pointer;
+}
+.bbedit-toolbar span.hover,
+.bbedit-toolbar span:hover {
+margin: 0 4px 0 0;
+border: 1px solid #A5ACB2;
+background-color: white;
+}
+.bbedit-smileybar {
+text-align: center;
+}
+.bbedit-smileybar img {
+margin-top: 4px;
+margin-right: 2px;
+cursor: pointer;
+}
+.bbedit-b {
+background: url("icons.gif") no-repeat 0 0;
+}
+.bbedit-i {
+background: url("icons.gif") no-repeat -20px 0;
+}
+.bbedit-u {
+background: url("icons.gif") no-repeat -40px 0;
+}
+.bbedit-s {
+background: url("icons.gif") no-repeat -60px 0;
+}
+.bbedit-url {
+background: url("icons.gif") no-repeat -80px 0;
+}
+.bbedit-img {
+background: url("icons.gif") no-repeat -100px 0;
+}
+.bbedit-code {
+background: url("icons.gif") no-repeat -120px 0;
+}
+.bbedit-quote {
+background: url("icons.gif") no-repeat -140px 0;
+}
+.bbedit-clear {
+clear: right;
+}
+
+/* Default skin */
+.bbedit-skin-default .bbedit-textarea {
+border: 1px solid #A5ACB2;
+border-top-color: #D0D0D0;
+}
+.bbedit-skin-default .bbedit-toolbar {
+border: 1px solid #A5ACB2;
+background: #F0F0F0;
+}
+.bbedit-skin-default .bbedit-toolbar span {
+background-color: #F0F0F0;
+}
+.bbedit-skin-default .bbedit-toolbar span.hover,
+.bbedit-skin-default .bbedit-toolbar span:hover {
+border: 1px solid #A5ACB2;
+background-color: white;
+}
+
+/* Blue skin */
+.bbedit-skin-blue .bbedit-textarea {
+border: 1px solid #9BB7E0;
+}
+.bbedit-skin-blue .bbedit-toolbar {
+border: 1px solid #9BB7E0;
+background: #CBDEF3;
+}
+.bbedit-skin-blue .bbedit-toolbar span {
+background-color: #CBDEF3;
+}
+.bbedit-skin-blue .bbedit-toolbar span.hover,
+.bbedit-skin-blue .bbedit-toolbar span:hover {
+border: 1px solid #9BB7E0;
+background-color: white;
+}
+
+/* Gray skin */
+.bbedit-skin-gray .bbedit-textarea {
+border: 1px solid #999;
+}
+.bbedit-skin-gray .bbedit-toolbar {
+border: 1px solid #999;
+background: #CCC;
+}
+.bbedit-skin-gray .bbedit-toolbar span {
+background-color: #CCC;
+}
+.bbedit-skin-gray .bbedit-toolbar span.hover,
+.bbedit-skin-gray .bbedit-toolbar span:hover {
+border: 1px solid #999;
+background-color: #EEE;
+}
